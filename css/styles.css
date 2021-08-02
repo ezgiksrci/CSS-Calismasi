@@ -1,0 +1,207 @@
+body {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  margin-top: 0;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 92px;
+  color: #66BFBF;
+  margin: 0 auto 0 auto;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 35px auto 50px auto;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-weight: 900;
+  margin-bottom: 35px;
+}
+
+p {
+  color: #40514E;
+  font-size: 16px;
+  font-weight: 900;
+  margin-bottom: 100px;
+  line-height: 2;
+}
+
+.underlined-pro {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+.top-cloud {
+  position: relative;
+  left: 350px;
+  padding-top: 50px;
+  margin-top: 0;
+}
+
+.bottom-cloud {
+  position: relative;
+  display: block;
+  transform: rotateX(180deg);
+  margin: 0 auto 0 auto;
+  right: 350px;
+}
+
+.topContainer {
+  background-color: #EAF6F6;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+}
+
+.profile-img {
+  margin-top: 75px;
+  width: 200px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.cycling-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.gameconsole-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile {
+  width: 35%;
+  margin: auto;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.bottom-container {
+  margin-top: 100px;
+  background-color: #66BFBF;
+  font-weight: bold;
+  padding-top: 50px;
+  word-spacing: 50px;
+}
+
+.contact-me {
+  width: 35%;
+  margin: auto;
+  font-weight: bold;
+}
+
+.contact-me p{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.copyright {
+  font-size: 13px;
+  color: #EAF6F6;
+  margin-bottom: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  letter-spacing: 1.5px;
+  word-spacing: normal;
+}
+
+hr {
+  border: none;
+  border-top: 7px dotted;
+  border-color: #d3d3d3;
+  width: 60px;
+  text-align: center;
+  margin: 100px auto 100px auto;
+}
+
+.btn {
+  background: #0EB2B8;
+  background-image: -webkit-linear-gradient(top, #0EB2B8, #058FA6);
+  background-image: -moz-linear-gradient(top, #0EB2B8, #058FA6);
+  background-image: -ms-linear-gradient(top, #0EB2B8, #058FA6);
+  background-image: -o-linear-gradient(top, #0EB2B8, #058FA6);
+  background-image: -webkit-gradient(to bottom, #0EB2B8, #058FA6);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 10px 30px;
+  -webkit-box-shadow: 1px 1px 3px 0 #0059A0;
+  -moz-box-shadow: 1px 1px 3px 0 #0059A0;
+  box-shadow: 1px 1px 3px 0 #0059A0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #0EB2B8 0;
+  background: #11999E;
+  background-image: -webkit-linear-gradient(top, #11999E, #0EB2B8);
+  background-image: -moz-linear-gradient(top, #11999E, #0EB2B8);
+  background-image: -ms-linear-gradient(top, #11999E, #0EB2B8);
+  background-image: -o-linear-gradient(top, #11999E, #0EB2B8);
+  background-image: -webkit-gradient(to bottom, #11999E, #0EB2B8);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/*
+.descr-gameconsole{
+  clear: right;
+}
+*/
+/**** bir takım denemeler... ***
+.topContainer{
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  position: relative;
+  left: 400px;
+}
+
+.middleContainer {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+
+.bottomContainer {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+}
+*/
